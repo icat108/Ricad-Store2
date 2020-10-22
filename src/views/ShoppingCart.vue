@@ -137,9 +137,9 @@
                       <span>Ricad Agus Setiawan</span>
                     </li>
                   </ul>
-                  <!-- <router-link to="/success"> -->
+                  <router-link to="/success">
                     <a @click="checkout()" href="#" class="proceed-btn">I ALREADY PAID</a>
-                  <!-- </router-link> -->
+                  </router-link>
                 </div>
                 <a href="#"
                 ><img src="img/payment-method.png" alt=""
