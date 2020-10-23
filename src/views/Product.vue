@@ -136,7 +136,7 @@ export default {
     }
     }
     axios
-      .get("http://lets-studynow.com/Ricad-Store2/api/products", {
+      .get("https://lets-studynow.com/Ricad-Store2/api/products", {
         params: {
           id: this.$route.params.id
         }
