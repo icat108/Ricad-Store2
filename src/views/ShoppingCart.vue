@@ -198,7 +198,7 @@ export default {
 
       axios
       .post(
-        "http://lets-studynow.com/Ricad-Store2/api/checkout",
+        "https://lets-studynow.com/Ricad-Store2/api/checkout",
         checkoutData
       )
       .then(() => this.$router.push("success"))
